@@ -163,7 +163,7 @@ fileprivate class carouselCollectionViewCell: UICollectionViewCell {
     
     private lazy var imageView : UIImageView = {
         let iv = UIImageView()
-        iv.contentMode = .scaleAspectFill
+        iv.contentMode = .scaleToFill
         iv.backgroundColor = .clear
         iv.clipsToBounds = true
         iv.translatesAutoresizingMaskIntoConstraints = false
